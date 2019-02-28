@@ -9,8 +9,8 @@ function HeaderTitle(props){
 
   return (
     <div className='name'>
-      <p>{mainName}</p>
-      <h4>{atName}</h4>
+      <h3>{mainName}</h3>
+      <h4>@{atName}</h4>
       <h5>{n}</h5>
     </div>
   );
