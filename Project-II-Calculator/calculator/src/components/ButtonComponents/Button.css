@@ -15,29 +15,44 @@ h3{
   font-size: 60px;
   text-align: center;
   font-weight: normal;
-
+  margin-top: 50px;
 }
 
 .topRow h2{
   width: 100px;
-  height: 100px;
+  height: 90px;
   border: 5px solid black;
   font-weight: normal;
   text-align: center;
+  font-size: 45px;
+  margin-top: 50px;
+  background-color: darkRed;
+  color: white;
 }
 
 .secondRow{
   display: flex;
   height: 100px;
-  margin-top: 16px;
-  width: 400px;
+  margin-top: 12px;
 }
 
 .secondRow h2 {
   width: 100px;
-  height: 100px;
+  height: 90px;
   border: 5px solid black;
   text-align: center;
+  margin-top: 45px;
+  background-color: darkRed;
+  color: white;
+}
+
+.secondRow h4{
+  width: 100px;
+  height: 100px;
+  font-size: 60px;
+  text-align: center;
+  border: 5px solid black;
+  margin-top:45px;
 }
 
 .thirdRow{
@@ -48,9 +63,21 @@ h3{
 
 .thirdRow h2{
   width: 100px;
-  height: 100px;
+  height: 90px;
   border: 5px solid black;
   text-align: center;
+  margin-top: 30px;
+  background-color: darkRed;
+  color: white;
+}
+
+.thirdRow h4{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border: 5px solid black;
+  font-size: 60px;
+  margin-top: 30px;
 }
 
 .fourthRow{
@@ -61,20 +88,44 @@ h3{
 
 .fourthRow h2{
   width: 100px;
+  height: 90px;
+  border: 5px solid black;
+  text-align: center;
+  margin-top: 20px;
+  background-color: darkRed;
+  color: white;
+}
+
+.fourthRow h4{
+  width: 100px;
   height: 100px;
   border: 5px solid black;
+  font-size: 60px;
+  margin-top: 20px;
   text-align: center;
 }
 
 .fifthRow{
   display: flex;
   height: 100px;
-  margin-top: 16px;
+  margin-top: 5px;
 }
 
 .fifthRow h2{
   width: 100px;
-  height: 100px;
+  height: 90px;
   text-align: center;
   border: 5px solid black;
+  margin-top: 20px;
+  background-color: darkRed;
+  color: white;
+}
+
+.fifthRow h5{
+  width: 300px;
+  height: 100px;
+  font-size: 60px;
+  border: 5px solid black;
+  margin-top: 20px;
+  text-align: center;
 }

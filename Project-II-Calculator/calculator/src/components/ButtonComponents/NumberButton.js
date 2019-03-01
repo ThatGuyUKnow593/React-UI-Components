@@ -3,11 +3,11 @@ import './Button.css';
 
 function NumberButton(props){
   if (props.num === '0'){
-    return(<h3>{props.num}</h3>);
+    return(<h5>{props.num}</h5>);
   }
 
   return(
-    <h2>{props.num}</h2>
+    <h4>{props.num}</h4>
   );
 }
 
