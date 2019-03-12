@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+.header{
+  display: flex;
+}
+
+.header img{
+  max-height: 75px;
+  height: 50%;
+}
+
+.name {
+  display: flex;
+  align-items: baseline;
+}
+
+.name h3{
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.name h4 {
+  font-size: 12px;
+  color: gray;
+  margin-left: 2%;
+}
+
+.name h5{
+  font-size: 12px;
+  color: gray;
+  margin-left: 2%;
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+  width: 100px;
+}
+
+.headerContent p{
+  margin-top: -10px;
+  line-height: 20px;
+}
